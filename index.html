@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>微拨打</title>
+    <link rel="stylesheet" href="statics/common/css/sm.min.css">
+    <link rel="stylesheet" href="statics/common/css/sm-extend.min.css">
+    <link type="text/css" href="statics/common/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link type="text/css" href="statics/css/common.css" rel="stylesheet">
+    <link type="text/css" href="statics/css/index.css" rel="stylesheet">
+    <link type="text/css" href="statics/css/center.css" rel="stylesheet">
+    <link type="text/css" href="statics/css/contact.css" rel="stylesheet">
+    <link type="text/css" href="statics/css/shop.css" rel="stylesheet">
+</head>
+<body>
+    <div class="page-group weiPhone">
+        <!--拨号首页-->
+        <div class="page page-current" id="index-page-1">
+            <!--顶部title栏-->
+            <header class="bar bar-nav wei-header">
+                <a class="button button-link button-nav pull-left back" href="#" data-transition='slide-out'>
+                    <span class="icon icon-left"></span>
+                    返回
+                </a>
+                <h1 class="title wei-title">微拨打</h1>
+            </header>
+            <!--底部菜单栏-->
+            <nav class="bar bar-tab wei-bar-tab">
+                <a class="tab-item active" href="index.html" data-no-cache="true">
+                    <span class="icon icon-phone"></span>
+                    <span class="tab-label">拨号</span>
+                </a>
+                <a class="tab-item" href="contact.html" data-no-cache="true">
+                    <span class="icon icon-friends"></span>
+                    <span class="tab-label">通讯录</span>
+                </a>
+                <a class="tab-item" href="Center.html" data-no-cache="true">
+                    <span class="icon"><i class="fa fa-user-o"></i></span>
+                    <span class="tab-label">我的</span>
+                </a>
+                <a class="tab-item" href="shop.html">
+                    <span class="icon">
+                        <i class="fa fa-yen"></i>
+                    </span>
+                    <span class="tab-label">电话商城</span>
+                </a>
+            </nav>
+            <!--主体内容栏-->
+            <div class="content">
+                <!-- Slider 轮播图-->
+                <div class="swiper-container" data-space-between='10'>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="statics/images/banner-2.png" alt="" width="100%"></div>
+                        <div class="swiper-slide"><img src="statics/images/banner-2.png" alt="" width="100%"></div>
+                        <div class="swiper-slide"><img src="statics/images/banner-2.png" alt="" width="100%"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <!--输入电话-->
+                <div class="item-content">
+                    <div class="item-inner">
+                        <div class="item-input wei-phone-number">
+                            <input type="tel" placeholder="输入电话号码" maxlength="11" id="phoneNum">
+                            <i class="fa fa-times-circle wei-phone-dele" id="clearPhone"></i>
+                        </div>
+                    </div>
+                </div>
+                <!--拨打电话按钮-->
+                <div class="content-block">
+                    <p><a href="#page-call-sucess" class="button wei-call-btn" data-no-cache="true"><i class="fa fa-phone"></i></a></p>
+                </div>
+            </div>
+        </div>
+        <!--正在呼叫页面-->
+        <div class="page wei-call-sucess" id="page-call-sucess">
+            <!--顶部title栏-->
+            <header class="bar bar-nav wei-header">
+                <a class="button button-link button-nav pull-left back" href="#" data-transition='slide-out'>
+                    <span class="icon icon-left"></span>
+                    返回
+                </a>
+                <h1 class="title wei-title">通讯录-微拨打</h1>
+            </header>
+            <!--主体内容栏-->
+            <div class="content call-sucess-content">
+               <div class="use">
+                   <i class="fa fa-user-circle"></i>
+               </div>
+                <div class="use-info">
+                    <p class="usename">花花</p>
+                    <p class="useNum">18820104395</p>
+                    <p class="useCallSucess">呼叫成功，注意接听</p>
+                    <p class="use-other-ico">
+                        <img src="statics/images/phone-call-img.png">
+                    </p>
+                </div>
+                <div class="content-block">
+                    <p><a href="#index-page-1" class="button wei-call-btn wei-sucesscall-btn" data-no-cache="true"><i class="fa fa-tty"></i></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script type='text/javascript' src='statics/common/js/zepto.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='statics/common/js/sm.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='statics/common/js/sm-extend.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='statics/js/mobile.js' charset='utf-8'></script>
