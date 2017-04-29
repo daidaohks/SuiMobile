@@ -1,0 +1,88 @@
+
+body{ font-family: "Microsoft YaHei", \5fae\8f6f\96c5\9ed1, arial, \5b8b\4f53;}
+ul,li{list-style-type: none;margin: 0;padding: 0;}
+/*顶部栏*/
+.weiPhone .wei-header a{
+    color: #fff;
+}
+.weiPhone .bar-nav .wei-title{
+    background: #1b1a1f;
+    color: #fff;
+}
+.weiPhone .wei-bar-tab{
+    height: 3.0rem;
+}
+.weiPhone .wei-bar-tab span.tab-label{
+    font-size: 0.8rem!important;
+    top: 0.5rem!important;
+}
+.weiPhone .wei-bar-tab span.icon{
+    top: 0.5rem!important;
+}
+/*顶部栏end*/
+/*正在呼叫界面*/
+.weiPhone .wei-call-sucess{
+    background:#1b1a1f ;
+}
+.weiPhone .wei-call-sucess .call-sucess-content{
+
+}
+.weiPhone .wei-call-sucess .call-sucess-content .use{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding: 2rem 0rem 0.8rem 0rem;
+}
+.weiPhone .wei-call-sucess .call-sucess-content .use i{
+    font-size: 6rem;
+    color: #eee;
+}
+.weiPhone .wei-call-sucess .call-sucess-content .use-info{
+    overflow: hidden;
+}
+.weiPhone .wei-call-sucess .call-sucess-content .use-info p{
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 0.2rem 0rem;
+}
+.weiPhone .wei-call-sucess .call-sucess-content .use-info p.usename{
+    font-size: 1.8rem;
+}
+.weiPhone .wei-call-sucess .call-sucess-content .use-info p.useNum{
+    font-size: 1.5rem;
+}
+.weiPhone .wei-call-sucess .call-sucess-content .use-info p.useCallSucess{
+    font-size: 1rem;
+    color: #209541;
+}
+.weiPhone .wei-call-sucess .call-sucess-content .use-info p.use-other-ico{
+    padding: 1rem 0rem 0rem;
+}
+.weiPhone .wei-call-sucess .call-sucess-content .use-info p.use-other-ico img{
+    width: 5rem;
+}
+.weiPhone .wei-call-sucess .call-sucess-content .wei-sucesscall-btn{
+    background: #ff2b33;
+}
+.weiPhone .wei-call-sucess .call-sucess-content .wei-sucesscall-btn i{
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 0.4rem;
+}
+.weiPhone .wei-call-sucess .content-block p{
+    margin: 0;
+}
+
+.weiPhone .wei-call-btn{
+    display: block;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background:#27c1e1;;
+    border: none;
+}
+.weiPhone .wei-call-btn .fa-phone{
+    font-size: 2rem;
+    vertical-align: middle;
+    color: #fff;
+}

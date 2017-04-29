@@ -1,0 +1,198 @@
+
+/*选项卡样式*/
+.weiPhone .buttons-tab .active{
+    color: #27c1e1;
+    border-color: #27c1e1;
+}
+.weiPhone .wei-saerch{
+    width: 92%;
+    margin: 0 auto;
+}
+.weiPhone .wei-saerch .search-input input{
+    height: 1.8rem;
+}
+.weiPhone .wei-saerch .searchbar-cancel{
+    height: 1.8rem;
+    line-height: 1.8rem;
+}
+.weiPhone .wei-saerch .wei-search-dele{
+    position: absolute;
+    font-size: 23px;
+    color: #666;
+    right: 11px;
+    top: 8px;
+    display: none;
+}
+.weiPhone .wei-add-user{
+    text-align: center;
+    border-top: solid 1px #cecece;
+    overflow: hidden;
+    width: 100%;
+    border-bottom: solid 1px #cecece;
+    margin-top: 10px;
+    padding: 0.8rem 0;
+    position: relative;
+    background: #fff;
+}
+.weiPhone .wei-add-user a{
+    overflow: hidden;
+    text-align: left;
+    display: block;
+    padding-left: 3rem;
+    color: #333;
+    font-size: 0.85rem;
+}
+.weiPhone .wei-add-user .fa-user-plus{
+    position: absolute;
+    left: 1rem;
+    top: 0.7rem;
+    font-size: 30px;
+    color: #27c1e1;
+}
+.weiPhone .wei-add-user .fa-angle-right{
+    position: absolute;
+    right: 1rem;
+    top: 0.7rem;
+    font-size: 30px;
+    color: #666;
+}
+/*通讯录样式*/
+.wei-userTab-content{;
+    width: 100%;
+    margin-top: 0.2rem;
+    padding: 0;
+}
+.weiPhone .wei-userTab-content .wei-userTab-list{
+
+}
+.weiPhone .wei-userTab-content .wei-userTab-list .content-block{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.weiPhone .wei-userTab-content .wei-userTab-list .wei-user-list{
+    width: 100%;
+}
+.weiPhone .wei-userTab-content .wei-userTab-list .wei-user-list h3{
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0;
+    padding: 0.4rem 11rem 0.4rem 1rem;
+}
+.weiPhone .wei-userTab-content .wei-userTab-list .wei-user-list ul{
+    overflow: hidden;
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    border-bottom: solid 1px #d8d9d9;
+}
+.weiPhone .wei-userTab-content .wei-userTab-list .wei-user-list ul li{
+    list-style-type: none;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: solid 1px #cecece;
+    padding: 15px 0px;
+    font-size: 0.9rem;
+    text-align: left;
+    position: relative;
+    color: #333;
+}
+.weiPhone .wei-userTab-content .wei-userTab-list .wei-user-list ul li:last-child{
+    border-bottom: none;
+}
+.weiPhone .wei-userTab-content .wei-userTab-list .wei-user-list ul li span{
+    float: right;
+    margin-right: 1.5rem;
+}
+.weiPhone .wei-userTab-content .wei-userTab-list .wei-user-list ul li .fa-angle-right{
+    position: absolute;
+    right: 0.2rem;
+    top: 0.65rem;
+    font-size: 30px;
+}
+/*电话记录*/
+.weiPhone .wei-record-List{
+
+}
+.weiPhone .wei-record-List .record-list-content{
+    background: #fff;
+}
+.weiPhone .wei-record-List .record-list-content .list{
+    overflow: hidden;
+    width: 95%;
+    margin: 0 auto;
+    position:relative;
+    padding: 5px 0px;
+    border-bottom: solid 1px #ddd;
+}
+.weiPhone .wei-record-List .record-list-content .list .phone-icon{
+    float: left;
+    position: absolute;
+    top: 21px;
+    left: 10px;
+}
+.weiPhone .wei-record-List .record-list-content .list .phone-icon i{
+    font-size: 28px;
+    color: #bfbdbd;
+}
+.weiPhone .wei-record-List .record-list-content .list .phone-list-detail{
+    float: left;
+    width: 100%;
+}
+.weiPhone .wei-record-List .record-list-content .list .phone-list-detail ul{
+    list-style-type: none;
+    margin: 0;
+
+}
+.weiPhone .wei-record-List .record-list-content .list .phone-list-detail ul li{
+    list-style-type: none;
+}
+.weiPhone .wei-record-List .record-list-content .list .phone-list-detail ul li p{
+    text-align: right;
+    margin: 0;
+    padding: 0.1rem 0.2rem 0rem 2rem;
+}
+.weiPhone .wei-record-List .record-list-content .list .phone-list-detail ul li p.name span{
+    font-size: 0.9rem;
+    color: #333333;
+}
+.weiPhone .wei-record-List .record-list-content .list .phone-list-detail ul li p span{
+    float: left;
+}
+.weiPhone .wei-record-List .last-tip{
+    text-align: center;
+    color: #999;
+    padding: 15px;
+    font-size: 0.85rem;
+}
+/*end*/
+.actions-modal-button{
+    line-height: 2.6rem;
+    font-size: 0.95rem;
+    color: #333;
+}
+/*编辑弹窗层*/
+.Modify{
+    padding: 10px;
+    width: 100%;
+    border-top: solid 1px #C5C4C4;
+    margin-top: 15px;
+}
+.Modify input{
+    border: none;
+    padding: 10px 5px;
+    color: #999999;
+    background: #e8e8e8;
+    width: 100%;
+}
+.Modify div{
+    border-radius:3px;
+    border:solid 1px #C5C4C4;
+    margin-top:10px!important;
+    margin: 0 auto;
+
+}
+.Modify input:focus{
+    color: #333333;
+}

@@ -1,0 +1,29 @@
+
+/**/
+.weiPhone .swiper-container{
+    padding-bottom: 0px;
+}
+.weiPhone .swiper-container .swiper-pagination{
+    bottom: 0.2rem;
+}
+.weiPhone .wei-phone-number{
+    position: relative;
+}
+.weiPhone .wei-phone-number input{
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none
+}
+.weiPhone .wei-phone-number input:focus{
+    color: #27c1e1;
+}
+.weiPhone .wei-phone-number .wei-phone-dele{
+    position: absolute;
+    right: 0.5rem;
+    top: 0.4rem;
+    font-size: 1.5rem;
+    color: #27c1e1;
+    display: none;
+}

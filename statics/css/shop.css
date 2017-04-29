@@ -1,0 +1,51 @@
+/**/
+.weiPhone .swiper-container{
+    padding-bottom: 0;
+}
+.weiPhone .swiper-container .swiper-pagination{
+    bottom: 0.2rem;
+}
+.shop-tip-buttom{
+    font-size: 0.73rem;
+    text-align: center;
+    padding: 0.5rem 0rem;
+    color: #999;
+}
+.product-list-content{
+    background: #fff;
+    padding-bottom: 1rem;
+}
+.product-list-content .content-block-title{
+    margin-top: 0rem;
+    font-size: 0.9rem;
+    padding: 0.8rem 0rem;
+    border-bottom: solid 1px #ddd;
+    color: #333333;
+}
+.product-list-content .list-block.media-list .item-media img{
+    width: 4.2rem;
+    border-radius: 8px;
+}
+.product-list-content .item-title-row{
+
+}
+.product-list-content .item-title-row .item-title{
+    color: #000000;
+    font-size: 0.85rem;
+    text-overflow: clip;
+    overflow: hidden;
+    white-space: normal;
+}
+.product-list-content .item-title-row .item-title span{
+    color: #333;
+    font-size: 0.85rem;
+    padding: 0rem 0.2rem;
+    font-weight: normal;
+}
+.product-list-content .list-block .item-subtitle{
+    color:red;
+    font-size: 0.9rem;
+}
+.product-list-content .list-block li{
+   border-bottom: solid 1px #ddd;
+}
